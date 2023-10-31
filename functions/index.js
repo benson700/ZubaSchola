@@ -11,7 +11,7 @@ const {onRequest} = require("firebase-functions/v2/https");
 const logger = require("firebase-functions/logger");
 const axios = require("axios");
 
-const apiHost = "https://api-dev.capnote.io";
+const apiHost = "https://zuba.capnote.com/api";
 const auth = async (request, response) => {
   const {userId} = request.body;
 
